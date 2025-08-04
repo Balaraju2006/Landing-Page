@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyMovie - Your Ultimate Cinema Experience</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">🎬 MyMovie</div>
+        <nav>
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#movie-section">Movies</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Showtimes</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="hero">
+      <div class="hero-content">
+        <h1>Experience the Magic of Cinema</h1>
+        <p>Book your tickets now and get ready for a cinematic adventure!</p>
+        <a href="#movie-section" class="cta-button">Book Now</a>
+      </div>
+    </main>
+
+    <section class="movie-section" id="movie-section">
+      <h2>Now Showing</h2>
+      <div class="movie-grid">
+        <div class="movie-card">
+          <img src="d.jpg" alt="Movie Poster 1" />
+          <h3>Devara</h3>
+          <div class="showtimes">
+            <a href="#" class="showtime-btn">10:00 AM</a>
+            <a href="#" class="showtime-btn">2:30 PM</a>
+            <a href="#" class="showtime-btn">7:00 PM</a>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img src="j.jpg" alt="Movie Poster 2" />
+          <h3>Jersey</h3>
+          <div class="showtimes">
+            <a href="#" class="showtime-btn">11:30 AM</a>
+            <a href="#" class="showtime-btn">4:00 PM</a>
+            <a href="#" class="showtime-btn">9:30 PM</a>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img src="de.jpg" alt="Movie Poster 3" />
+          <h3>Dear Comrade</h3>
+          <div class="showtimes">
+            <a href="#" class="showtime-btn">1:00 PM</a>
+            <a href="#" class="showtime-btn">5:45 PM</a>
+            <a href="#" class="showtime-btn">10:00 PM</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-form-container">
+        <form class="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="cta-button">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2025 MyMovie. All rights reserved.</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
